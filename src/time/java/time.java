@@ -14,25 +14,23 @@ public class time {
 
 	public static void main(String[] args) {
 		
-			int hour = 18;
+	//6:22 p.m.	int hour = 18;	
 			int minute = 22;
 			int second = 0;
-			//6:22 p.m.
+			
 		System.out.print("number of seconds since midnight: ");
 		System.out.println((hour * 60 * 60) + (minute* 60) + second);
-			double mytime = (hour * 60 * 60) + (minute* 60) + second;
-			//mytime = number of seconds since midnight
+			double mytime = (hour * 60 * 60) + (minute* 60) + second;	//mytime = number of seconds since midnight
 		System.out.print("number of seconds until midnight: ");
 		System.out.println((24 * 60 * 60) - (hour * 60 * 60) - (minute * 60)); 
-		 	double maxtime = 24 * 60 * 60; 
-		 	//maxtime = number of seconds for a day
+		 	double maxtime = 24 * 60 * 60; 					//maxtime = number of seconds for a day
 		System.out.print("percentage of time that has passed: ");
 	    System.out.println(mytime/maxtime);
 	    
-	    	int hour1 = 19;
-	    	int minute1 = 4;
-	    	int second1 = 30;
-	    	//7:04 p.m.
+	  //7:04 p.m.  	int hour1 = 19;
+	    		int minute1 = 4;
+	    		int second1 = 30;
+	    	
 	    System.out.print("Amount of elapsed time in seconds: ");
 	    System.out.println((hour1 *60 * 60) + (minute1 *60) + second1 
 	    		- (mytime));
